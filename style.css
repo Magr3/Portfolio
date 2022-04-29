@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2dfd3;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*.titoli{
+    font-weight: ;
+}*/
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-shadow: -1px 0 #341d08, 0 1px #341d08, 1px 0 #341d08, 0 -1px #341d08; 
+}
+
+header img{
+    border-radius:50%;
+    border: #341d08 1px;
+    margin-top: 5%;
+    width: 25%;
+}
+
+header div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}    
+
+header h1{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+header p{
+    margin-top: 0;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    width: 100;
+    flex-direction: column;
+}
+main h2{
+    text-align: center;
+    margin: 7%;
+}
+
+#immagini{
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main img{
+    width: 5%;
+
+}
+
+#sql{
+    width:10% ;
+}
+
+#node{
+    width:10%;
+}
+
+#formazioni{
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.finestre{
+
+    background-color: #e4c0a8;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+    border: solid #341d08 1px;
+    width: 25%;
+    text-align: center;
+}
+
+.data {
+    align-self: flex-end;
+    margin-right: 4%;
+}
+
+.formazioneImg{
+    display: flex;
+    justify-content: center;
+}
+
+.imma{
+    width: 70%;
+}
+
+#mim{
+    border-radius: 50%;
+}
+
+#progetti{
+    display: flex;
+    flex-direction: column;
+}
+
+#projet{
+    padding-top: 5%;
+    display: flex;
+    margin: 0 20%;
+}
+
+#projet img{
+    border: solid #341d08 1px;
+    border-radius: 2px;
+    width: 80%;
+}
+
+.dino{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.dinoImg{
+    height: ;
+}*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contatti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatti img{
+    width: 2%;
+    height: 2%;
+}
+
+#fine{
+    font-size: smaller;
+    padding-bottom: 3px;
+}
+
+hr {
+    width: 80%;
+    margin: 5%;
+}
