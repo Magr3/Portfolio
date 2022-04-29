@@ -162,6 +162,8 @@ footer{
 
 hr {
     width: 80%;
-    margin-top: 5%;
-    color: #341d08;
+    margin-top: 5%; 
+    background-color: #341d08; 
+    border: 0; 
+    height: 1px;
 }
